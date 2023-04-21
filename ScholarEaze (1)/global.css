@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-8xl: 27px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-chocolate: #f37933;
+  --color-black: #000;
+  --color-mediumblue: #6610f2;
+  --color-gainsboro: #e5e5e5;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-27xl: 46px;
+  --br-6xl: 25px;
+}

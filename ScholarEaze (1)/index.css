@@ -1,0 +1,221 @@
+.desktop-1-child,
+.desktop-1-item {
+  position: absolute;
+  top: 264px;
+  left: 1009px;
+  width: 189px;
+  height: 176px;
+}
+.desktop-1-item {
+  top: 0;
+  left: 1px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1439px;
+  height: 102px;
+}
+.desktop-1-inner,
+.layer-0-copy-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 299px;
+}
+.layer-0-copy-1 {
+  top: 331px;
+  left: 574px;
+  width: 866px;
+  height: 696px;
+  object-fit: cover;
+}
+.scholar1 {
+  font-weight: 600;
+}
+.about1,
+.contact-us1,
+.home1,
+.scholareaze1 {
+  position: absolute;
+  top: 33px;
+  display: inline-block;
+}
+.scholareaze1 {
+  left: 43px;
+  color: var(--color-white);
+  width: 270px;
+  height: 98px;
+}
+.about1,
+.contact-us1,
+.home1 {
+  font-weight: 600;
+}
+.home1 {
+  left: 583px;
+  width: 140px;
+  height: 47px;
+}
+.about1 {
+  left: 723px;
+  width: 117px;
+  height: 34px;
+}
+.contact-us1 {
+  left: 860px;
+  width: 222px;
+  height: 35px;
+}
+.desktop-1-child1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-chocolate);
+  position: absolute;
+  top: 27px;
+  left: 1235px;
+  border-radius: var(--br-xl);
+  box-shadow: 0 0 6px 7px rgba(243, 121, 51, 0.25);
+  width: 165px;
+  height: 53px;
+}
+.login1 {
+  position: absolute;
+  top: 36px;
+  left: 1278px;
+  font-size: var(--font-size-8xl);
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 92px;
+  height: 36px;
+  backdrop-filter: blur(4px);
+}
+.rectangle-section {
+  position: absolute;
+  top: 346px;
+  left: 56px;
+  border-radius: 112px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  width: 500px;
+  height: 620px;
+}
+.eaze2 {
+  font-weight: 500;
+  color: var(--color-black);
+}
+.scholareaze2 {
+  position: absolute;
+  top: 407px;
+  left: 150px;
+  font-size: 40px;
+  color: var(--color-chocolate);
+  font-family: var(--font-montserrat);
+}
+.the-formula-for {
+  margin: 0;
+}
+.your-success1 {
+  color: var(--color-chocolate);
+}
+.get-to-know,
+.the-formula-for-container {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.the-formula-for-container {
+  top: 510px;
+  left: 93px;
+  font-size: 37px;
+  white-space: pre-wrap;
+  width: 408px;
+  height: 89px;
+  line-height: 28%;
+}
+.get-to-know {
+  top: 670px;
+  left: 112px;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-chocolate);
+  width: 388px;
+  height: 64px;
+  backdrop-filter: blur(4px);
+}
+.desktop-1-child2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-chocolate);
+  position: absolute;
+  top: 846px;
+  left: 171px;
+  border-radius: var(--br-27xl);
+  box-shadow: 0 0 12px #f37933;
+  width: 262px;
+  height: 68px;
+}
+.get-started {
+  position: absolute;
+  top: 861px;
+  left: 224px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+}
+.pen-pencil-write-icon-1 {
+  position: absolute;
+  top: 430px;
+  left: 608px;
+  width: 90px;
+  height: 82px;
+  overflow: hidden;
+}
+.education-genius-graduation-kn-icon {
+  position: absolute;
+  top: 324px;
+  left: 816px;
+  width: 110px;
+  height: 100px;
+  overflow: hidden;
+}
+.shape-zigzag-icon-11,
+.shape-zigzag-icon-21 {
+  position: absolute;
+  overflow: hidden;
+}
+.shape-zigzag-icon-21 {
+  top: 93px;
+  left: 1104px;
+  width: 76px;
+  height: 77px;
+}
+.shape-zigzag-icon-11 {
+  top: 102px;
+  left: 432px;
+  width: 116px;
+  height: 70px;
+}
+.doodle-education-letter-school-icon {
+  position: absolute;
+  top: 288px;
+  left: 1257px;
+  width: 142px;
+  height: 128px;
+  overflow: hidden;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
