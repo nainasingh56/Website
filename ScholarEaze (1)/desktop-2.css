@@ -223,6 +223,9 @@
   box-shadow: 0 0 12px #f37933;
   width: 202px;
   height: 70px;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
 }
 .icon,
 .submit {
