@@ -74,7 +74,7 @@
   background-color: var(--color-chocolate);
   position: absolute;
   top: 27px;
-  left: 1235px;
+  left: 1315px;
   border-radius: var(--br-xl);
   box-shadow: 0 0 6px 7px rgba(243, 121, 51, 0.25);
   width: 165px;
@@ -83,7 +83,7 @@
 .login1 {
   position: absolute;
   top: 36px;
-  left: 1278px;
+  left: 1358px;
   font-size: var(--font-size-8xl);
   font-weight: 600;
   color: var(--color-white);
