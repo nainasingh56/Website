@@ -293,6 +293,7 @@
   color: var(--color-black);
   font-family: var(--font-open-sans);
 }
+<<<<<<< HEAD
 .frame-child {
   position: absolute;
   top: 0;
@@ -309,9 +310,119 @@
   height: 138.5px;
 }
 .vector-parent {
+=======
+
+.frame-child {
+  position: absolute;
+  top: 419px;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(61, 29, 115, 0.25)100%,
+    rgba(255, 255, 255, 0.25)119.35%
+  );
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  width: 1520px;
+  height: 186px;
+}
+#name1 {
+  position: absolute;
+  top: 439px;
+  left: 213px;
+  font-size: 36px;
+  font-weight: 600;
+  display: inline-block;
+  width: 711px;
+  height: 54px;
+}
+.frame-item {
+  position: absolute;
+  top: 493px;
+  left: 189px;
+  background-color: rgba(229, 229, 229, 0.65);
+  box-shadow: 0 0 4px #3d1d73 inset;
+  width: 895px;
+  height: 98px;
+}
+.frame-inner {
+  position: absolute;
+  top: 439px;
+  left: 1209px;
+  border-radius: 40.5px;
+  background-color: var(--color-white);
+  width: 235px;
+  height: 82px;
+}
+.more-details {
+  text-decoration: underline;
+  position: absolute;
+  top: 549px;
+  left: 1187px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-midnightblue);
+  text-align: center;
+  display: inline-block;
+  width: 276px;
+  height: 36px;
+}
+.image-2-icon {
+  position: absolute;
+  top: 463px;
+  left: 26px;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+#deadline1,
+#provided1 {
+  position: absolute;
+  top: 512px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: justify;
+}
+#deadline1 {
+  left: 210px;
+  color: var(--color-chocolate);
+  width: 341px;
+  height: 63px;
+  font-size: 25px;
+  line-height: 44px;
+  
+}
+#provided1 {
+  left: 589px;
+  width: 468px;
+  height: 59px;
+  font-size: 25px;
+  font-weight: 700;
+}
+#money1 {
+  margin: 0;
+  position: absolute;
+  top: 464px;
+  left: 1254px;
+  font-size: 22px;
+  color: var(--color-midnightblue);
+  text-align: center;
+  font-weight: 500;
+}
+.rectangle-parent {
+>>>>>>> 77e563e4f94c27a3ca1f48c1d469d6e5e7a697c7
   position: relative;
   background-color: var(--color-white);
   width: 100%;
   height: 1024px;
   overflow: hidden;
+<<<<<<< HEAD
 }
+=======
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+
+>>>>>>> 77e563e4f94c27a3ca1f48c1d469d6e5e7a697c7
