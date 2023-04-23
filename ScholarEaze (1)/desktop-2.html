@@ -169,15 +169,27 @@
     </div>
     <div class="rectangle-parent">
       <div class="frame-child"></div>
-      <div id="name1"></div>
+      <div class="name" id="name1"></div>
       <div class="frame-item"></div>
       <nav class="frame-inner"></nav>
-      <a class="more-details">more details</a>
-      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+      <a class="more-details"></a>
+      <img class="image-2-icon" alt="" src="" />
 
-      <span id="deadline1"></span>
-      <label id="provided1"></label>
-      <p id="money1"></p>
+      <span id="deadline1" class="deadline" ></span>
+      <label id="provided1" class="provided"></label>
+      <p id="money1" class="money"></p>
+    </div>
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <div id="name2" class="name"></div>
+      <div class="frame-item"></div>
+      <nav class="frame-inner"></nav>
+      <a class="more-details"></a>
+      <img class="image-2-icon" alt="" src="" />
+
+      <span id="deadline2" class="deadline"></span>
+      <label id="provided2" class="provided"></label>
+      <p id="money2" class="money"></p>
     </div>
     <div id="name2"></div>
     <div id="deadline2"></div>  
@@ -195,7 +207,6 @@
     <div id="deadline5"></div>  
     <div id="provided5"></div> 
     <div id="money5"></div>
-
 
 
    <script>
@@ -216,12 +227,12 @@
             let a=0;
             for(let i=0;i<list.length;i++){
                 const sublist=list[i];
-                if (sublist[5]>=income && sublist[6]<=percent && (sublist[1]==("ALL" || gender)) && (sublist[3]==("ALL" || category)) && (sublist[2]==("ALL"||course)) &&(sublist[4]==("ALL"||state))){
+                if (sublist[5]>=income && sublist[6]<=percent && (sublist[1]==("ALL" || gender)) && (sublist[3]==("ALL" || category)) && (sublist[2]==(course||"ALL")) &&(sublist[4]==("ALL"||state))){
                     l.push(sublist);
                     a++;
                 }
             }
-            
+            console.log([l,a]);
 //document.getElementById("name").innerHTML = "sch[0][0]";
 //document.getElementById("deadline").innerHTML = l[0][7];
 //document.getElementById("provided").innerHTML = l[0][8];
@@ -260,6 +271,16 @@ document.getElementById(name).innerHTML = sch[s][0];
 document.getElementById(deadline).innerHTML = sch[s][9];
 document.getElementById(provided).innerHTML = sch[s][7];
 document.getElementById(money).innerHTML = sch[s][8];
+let a=s+1;
+let t=a.toString();
+let N="name";;
+let D="deadline";
+let P="provided";
+let M="money";
+name=N.concat(a);
+deadline=D.concat(a);
+provided=P.concat(a);
+money=M.concat(a);
 }
 k=5;
 name= "name"+k.toString;
